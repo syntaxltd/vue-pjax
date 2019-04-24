@@ -9,7 +9,7 @@ The plugin itself depends on the [`vue`](https://www.npmjs.com/package/vue) and 
 ## Installation
 First things first, open up your terminal and pull in the plugin.
 ```sh
-$ npm install riverskies/vue-pjax-adapter
+$ npm i @syntaxltd/vue-pjax
 ```
 
 Next, you will have to specify the target container in your blade template. In the example below we called it `#pjax-container` (which is the default by the way).
