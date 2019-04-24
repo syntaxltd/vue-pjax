@@ -32,7 +32,7 @@ Now go to your `app.js` file where you set up Vue and initialise the plugin.
 require('./bootstrap');
 window.Vue = require('vue');
 
-import pjaxAdapter from 'vue-pjax-adapter';
+import { PjaxEventBus, pjaxAdapter } from '@syntaxltd/vue-pjax';
 window.Vue.use(pjaxAdapter);
 
 // or if you don't like the default target, you can override it
