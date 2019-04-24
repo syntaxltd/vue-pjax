@@ -1,5 +1,5 @@
 {
-    "name": "vue2-pjax",
+    "name": "vue-pjax",
     "version": "0.3.0",
     "description": "A Vue plugin to enhance your website performance with PJAX without relying on jQuery.",
     "main": "index.js",
