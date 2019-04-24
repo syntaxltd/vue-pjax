@@ -1,6 +1,6 @@
 {
-    "name": "vue-pjax",
-    "version": "0.3.0",
+    "name": "@syntaxltd/vue-pjax",
+    "version": "0.1.0",
     "description": "A Vue plugin to enhance your website performance with PJAX without relying on jQuery.",
     "main": "index.js",
     "scripts": {
@@ -19,14 +19,14 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/riverskies/vue-pjax-adapter"
+        "url": "https://github.com/syntaxltd/vue-pjax"
     },
     "bugs": {
-        "url": "https://github.com/riverskies/vue-pjax-adapter/issues"
+        "url": "https://github.com/syntaxltd/vue-pjax/issues"
     },
     "author": {
-        "name": "Barnabas Kecskes",
-        "email": "barnabas@riverskies.com"
+        "name": "Benjamin Gakami",
+        "email": "hello@bengakami.me"
     },
     "license": "MIT",
     "dependencies": {
