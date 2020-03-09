@@ -96,6 +96,9 @@ class Plugin {
                     PjaxEventBus.$emit('pjax:complete');
                 },
                 error => {
+		    if (error.response.status === 503) {
+		    	window.location.reload();
+		    }
                     PjaxEventBus.$emit('pjax:error');
                     PjaxEventBus.$emit('pjax:complete');
                 }
