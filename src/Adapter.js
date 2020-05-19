@@ -96,7 +96,10 @@ class Plugin {
                     PjaxEventBus.$emit('pjax:complete');
                 },
                 error => {
-		    if (error.response.status === 503) {
+		    if (error != undefined 
+                        && error.hasOwnProperty('response')
+                        && error.response.hasOwnProperty('status')
+                        && error.response.status === 503) {
 		    	window.location.reload();
 		    }
                     PjaxEventBus.$emit('pjax:error');
