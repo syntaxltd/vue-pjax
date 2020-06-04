@@ -98,6 +98,7 @@ class Plugin {
                 error => {
 		    if (error != undefined 
                         && error.hasOwnProperty('response')
+                        && error.response != undefined
                         && error.response.hasOwnProperty('status')
                         && error.response.status === 503) {
 		    	window.location.reload();
