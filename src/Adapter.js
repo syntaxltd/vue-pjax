@@ -61,7 +61,7 @@ class Plugin {
         let testedNode = element;
 
         while (testedNode !== document) {
-            if (testedNode.dataset.noPjax !== undefined) return true;
+            if (testedNode.dataset != null && testedNode.dataset.noPjax !== undefined) return true;
 
             testedNode = testedNode.parentNode;
         }
